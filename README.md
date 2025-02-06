@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error and its solution. The initial Dockerfile attempts to install Python dependencies using `pip3 install -r requirements.txt`, but fails if the `requirements.txt` file is missing or inaccessible.  The solution shows how to correctly copy the file and ensure proper permissions.
